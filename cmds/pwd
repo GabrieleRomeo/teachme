@@ -1,0 +1,38 @@
+#!/usr/bin/bash
+
+
+bold=`tput bold`
+underline=`tput smul`
+stop_underline=`tput rmul`
+reset=`tput sgr0`
+
+echo -e "This is the ${bold}pwd${reset} command. (${bold}P${reset}rint ${bold}W${reset}orking ${bold}D${reset}irectory)"
+
+# The command's name
+echo -e 'pwd'
+
+# the command's description
+echo -e "The ${bold}pwd${Reset} command shows you the absolute pathname of your current working directory. \n\nThe path starts at '/', the root, and follows the filesystem until it reaches your current location."
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+
+exit 0
