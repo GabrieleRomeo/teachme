@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-bashbold=`tput bold`
+bold=`tput bold`
 underline=`tput smul`
 stop_underline=`tput rmul`
 reset=`tput sgr0`
@@ -8,7 +8,7 @@ reset=`tput sgr0`
 
 bash
 
-bashbold=`tput bold`
+bold=`tput bold`
 underline=`tput smul`
 stop_underline=`tput rmul`
 reset=`tput sgr0`
@@ -49,7 +49,7 @@ echo description here
 exit 0
 #!/usr/bin/bash
 
-bashbold=`tput bold`
+bold=`tput bold`
 underline=`tput smul`
 stop_underline=`tput rmul`
 reset=`tput sgr0`
@@ -57,7 +57,7 @@ reset=`tput sgr0`
 
 bash
 
-bashbold=`tput bold`
+bold=`tput bold`
 underline=`tput smul`
 stop_underline=`tput rmul`
 reset=`tput sgr0`
