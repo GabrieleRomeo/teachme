@@ -1,5 +1,11 @@
 #!/usr/bin/bash
-echo "This is the git checkout command."
+
+bashbold=`tput bold`
+underline=`tput smul`
+stop_underline=`tput rmul`
+reset=`tput sgr0`
+
+echo "This is the git ${bold}checkout${reset} command."
 
 # The command's name
 echo -e 'git checkout'
