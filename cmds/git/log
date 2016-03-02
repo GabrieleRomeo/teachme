@@ -1,5 +1,11 @@
 #!/usr/bin/bash
-echo "This is the git log command."
+
+bashbold=`tput bold`
+underline=`tput smul`
+stop_underline=`tput rmul`
+reset=`tput sgr0`
+
+echo "This is the git ${bold}log${reset} command."
 
 # The command's name
 echo -e 'git log'
