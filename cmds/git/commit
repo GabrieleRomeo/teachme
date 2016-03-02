@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-bashbold=`tput bold`
+bold=`tput bold`
 underline=`tput smul`
 stop_underline=`tput rmul`
 reset=`tput sgr0`
