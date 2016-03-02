@@ -5,6 +5,18 @@ underline=`tput smul`
 stop_underline=`tput rmul`
 reset=`tput sgr0`
 
+
+bash
+
+bashbold=`tput bold`
+underline=`tput smul`
+stop_underline=`tput rmul`
+reset=`tput sgr0`
+bold=`tput bold`
+underline=`tput smul`
+stop_underline=`tput rmul`
+reset=`tput sgr0`
+
 echo "This is the git ${bold}fetch${reset} command."
 
 # The command's name
@@ -38,6 +50,18 @@ exit 0
 #!/usr/bin/bash
 
 bashbold=`tput bold`
+underline=`tput smul`
+stop_underline=`tput rmul`
+reset=`tput sgr0`
+
+
+bash
+
+bashbold=`tput bold`
+underline=`tput smul`
+stop_underline=`tput rmul`
+reset=`tput sgr0`
+bold=`tput bold`
 underline=`tput smul`
 stop_underline=`tput rmul`
 reset=`tput sgr0`
