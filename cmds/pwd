@@ -18,7 +18,12 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "pwd [OPTION]"
+echo "pwd [OPTION]..."
+
+echo -e "\t-L, --logical: use PWD from environment, even if it contains symlinks"
+echo -e "\t-P, --physical: avoid all symlinks"
+echo -e "\t--help: display this help and exit"
+echo -e "\t--version: output version information and exit"
 
 echo "------------"
 
