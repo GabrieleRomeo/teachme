@@ -17,9 +17,18 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "touch [OPTION] FILE"
-echo -e "\tFILE: Name of existing file to be opened or non-existing file that will be created."
-
+echo "touch [OPTION]... FILE..."
+echo -e "\t-a: change only the access time"
+echo -e "\t-c, --no-create: do not create any files"
+echo -e "\t-d, --date=STRING: parse STRING and use it instead of current time"
+echo -e "\t-f: (ignored)"
+echo -e "\t-h, --no-dereference: affect each symbolic link instead of any referenced file (useful only on systems that can change the timestamps of a symlink)"
+echo -e "\t-m: change only the modification time"
+echo -e "\t-r, --reference=FILE: use this file's times instead of current time"
+echo -e "\t-t STAMP: use [[CC]YY]MMDDhhmm[.ss] instead of current time"
+echo -e "\t--time=WORD: change the specified time: WORD is access, atime, or use: equivalent to -a WORD is modify or mtime: equivalent to -m"
+echo -e "\t--help: display this help and exit"
+echo -e "\t--version: output version information and exit"
 echo "------------"
 
 # the command's usage examples
