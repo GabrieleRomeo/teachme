@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "cd Documents"
+echo "Change to subdirectory {bold}Documents{reset} from the present working directory."
 
 # example 2
-echo "test something"
-echo description here
+echo "cd ~"
+echo "Change to the home directory"
 
 
 exit 0
