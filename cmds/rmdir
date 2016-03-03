@@ -17,11 +17,12 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
-
+echo "rmdir [OPTION]... DIRECTORY..."
+echo -e "\t--ignore-fail-on-non-empty: ignore each failure that is solely because a directory is non-empty"
+echo -e "\t-p, --parents: remove DIRECTORY and its ancestors; e.g., 'rmdir -p a/b/c' is similar to 'rmdir a/b/c a/b a'"
+echo -e "\t-v, --verbose: output a diagnostic for every directory processed"
+echo -e "\t--help: display this help and exit"
+echo -e "\t--version: output version information and exit"
 echo "------------"
 
 # the command's usage examples
