@@ -17,10 +17,19 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "chmod [OPTION]... MODE[,MODE]... FILE..."
+echo "chmod [OPTION]... OCTAL-MODE FILE..."
+echo "chmod [OPTION]... --reference=RFILE FILE..."
+echo -e "\t-c, --changes: like verbose but report only when a change is made"
+echo -e "\t--no-preserve-root: do not treat '/' specially (the default)"
+echo -e "\t--preserve-root: fail to operate recursively on '/'"
+echo -e "\t-f, --silent, --quiet: suppress most error messages"
+echo -e "\t-v, --verbose: output a diagnostic for every file processed"
+echo -e "\t--reference=RFILE: use RFILE's mode instead of MODE values"
+echo -e "\t-R, --recursive: change files and directories recursively"
+echo -e "\t--help: display this help and exit"
+echo -e "\t--version: output version information and exit"
+
 
 echo "------------"
 
