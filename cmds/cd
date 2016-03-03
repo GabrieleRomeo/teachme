@@ -17,10 +17,11 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "cd [-L|-P] [dir]"
+echo -e "\tdir: change the current directory to [dir]"
+echo -e "\t-L: force symbolic links to be followed"
+echo -e "\t-P: use the physical directory structure without following symbolic links"
+echo -e "The default is to follow symbolic links, as if `-L' were specified."
 
 echo "------------"
 
