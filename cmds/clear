@@ -1,0 +1,34 @@
+#!/usr/bin/bash
+
+bold=`tput bold`
+underline=`tput smul`
+stop_underline=`tput rmul`
+reset=`tput sgr0`
+
+echo "This is the ${bold}clear${reset} command."
+
+# The command's name
+echo -e 'clear'
+
+# the command's description
+echo "description here"
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "clear"
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+
+exit 0
