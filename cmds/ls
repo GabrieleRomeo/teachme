@@ -25,13 +25,28 @@ echo -e "\targument2: description of argument 2"
 echo "------------"
 
 # the command's usage examples
-# example 1
-echo "test"
-echo description here
+echo "ls"
+echo "display the contents of the current directory"
 
-# example 2
-echo "test something"
-echo description here
+echo "ls -l"
+echo "display the content of the current working directory using a long listing format"
 
+echo "ls -la"
+echo "display the content of the current working directory and include directory entries whose names begin with a dot (.)"
+
+echo "ls -l /dir"
+echo "display the content of the directory ${bold}dir${reset} using a long listing format"
+
+echo "ls -lR /dir"
+echo "display the content of the directory ${bold}dir${reset} and all its subdirectories recursively using a long listing format"
+
+echo "ls -lh"
+echo "display the content of the current working directory using a long listing format and print file sizes in human readable format (e.g., 1K 234M 2G)"
+
+echo "ls -i"
+echo "display the content of the current working directory and print the index number of each file"
+
+echo "ls -lS"
+echo "display the content of the current working directory sorted by file size"
 
 exit 0
