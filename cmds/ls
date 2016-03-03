@@ -11,7 +11,7 @@ echo "This is the ${bold}ls${reset} command."
 echo -e 'ls'
 
 # the command's description
-echo "description here"
+echo "Lists contents of a directory."
 
 echo "------------"
 
