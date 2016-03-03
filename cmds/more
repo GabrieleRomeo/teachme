@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "more myfile.txt"
+echo "Display the contents of ${bold}myfile.txt${reset}"
 
 # example 2
-echo "test something"
-echo description here
+echo "more +10 myfile.txt"
+echo "Display contents of ${bold}myfile.txt${reset} starting at line 10."
 
 
 exit 0
