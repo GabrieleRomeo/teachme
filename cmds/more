@@ -27,11 +27,11 @@ echo "------------"
 # the command's usage examples
 # example 1
 echo "more myfile.txt"
-echo "Display the contents of {bold}myfile.txt{reset}"
+echo "Display the contents of ${bold}myfile.txt${reset}"
 
 # example 2
 echo "more +10 myfile.txt"
-echo "Display contents of {bold}myfile.txt{reset} starting at line 10."
+echo "Display contents of ${bold}myfile.txt${reset} starting at line 10."
 
 
 exit 0
