@@ -8,10 +8,10 @@ reset=`tput sgr0`
 echo "This is the ${bold}pipe${reset} command."
 
 # The command's name
-echo -e 'pipe'
+echo -e '|'
 
 # the command's description
-echo "description here"
+echo "Piping is used to feed the output of one program as the input of another. The program on the left oof the pipe symbol will produce the input for the program on the right. It is possible to chain pipes to include as many programs as desired."
 
 echo "------------"
 
