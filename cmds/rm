@@ -11,7 +11,7 @@ echo "This is the ${bold}rm${reset} command."
 echo -e 'rm'
 
 # the command's description
-echo "description here"
+echo "Removes each file that's specified. By default, ${bold}rm${reset} does not remove directories. generally does not destroy file data, since its purpose is really merely to unlink references, and the filesystem space freed may still contain leftover data from the removed file."
 
 echo "------------"
 
