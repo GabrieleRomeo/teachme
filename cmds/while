@@ -11,7 +11,7 @@ echo "This is the ${bold}while${reset} command."
 echo -e 'while'
 
 # the command's description
-echo "description here"
+echo "The standard while loop. Repeats the specified operations as long as the condition evaluates to true for that iteration. It stops when the condition returns false."
 
 echo "------------"
 
