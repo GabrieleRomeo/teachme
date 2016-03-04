@@ -11,7 +11,7 @@ echo "This is the ${bold}alias${reset} command."
 echo -e 'alias'
 
 # the command's description
-echo "description here"
+echo "Used to customize the shell user interface. With ${bold}alias${reset}, you can assign shortcuts for commonly used commands to improve typing efficiency. Aliases persist for the current session and can be loaded by editing the shell's .rc file."
 
 echo "------------"
 
