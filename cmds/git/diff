@@ -11,7 +11,7 @@ echo "This is the git ${bold}diff${reset} command."
 echo -e 'git diff'
 
 # the command's description
-echo "description here"
+echo "By default, used to show the differences between the working tree and the index. It can also be used to show differences between two files or two trees."
 
 echo "------------"
 
