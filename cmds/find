@@ -11,7 +11,7 @@ echo "This is the ${bold}find${reset} command."
 echo -e 'find'
 
 # the command's description
-echo "description here"
+echo "Find searches the directory tree of a filesystem, matches files to user-specified criteria and applies an action on the matched files. By default, find returns a list of files in the present working directory."
 
 echo "------------"
 
