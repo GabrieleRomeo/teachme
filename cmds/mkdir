@@ -11,7 +11,7 @@ echo "This is the ${bold}mkdir${reset} command."
 echo -e 'mkdir'
 
 # the command's description
-echo "Short for ${bold}M${reset}ake {bold}D{reset}irectory. Used to create directories on a file system if they do not exist."
+echo "Short for ${bold}M${reset}ake ${bold}D${reset}irectory. Used to create directories on a file system if they do not exist."
 
 echo "------------"
 
