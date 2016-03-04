@@ -11,7 +11,7 @@ echo "This is the git ${bold}init${reset} command."
 echo -e 'git init'
 
 # the command's description
-echo "description here"
+echo "Creates an empty Git repository or initializes an existing one by creating a .git directory with subdirectories for objects, refs/heads, refs/tags, and template files."
 
 echo "------------"
 
