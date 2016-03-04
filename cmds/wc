@@ -11,7 +11,7 @@ echo "This is the ${bold}wc${reset} command."
 echo -e 'wc'
 
 # the command's description
-echo "description here"
+echo "Prints newline, word and byte counts for the given file. If multiple files are given, the command outputs the total of each value. If no file is passed, the command reads standard input, <STDIN>."
 
 echo "------------"
 
