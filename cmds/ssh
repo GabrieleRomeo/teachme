@@ -11,7 +11,7 @@ echo "This is the ${bold}ssh${reset} command."
 echo -e 'ssh'
 
 # the command's description
-echo "description here"
+echo "Used to start up the SSH program which allow the user to log in to a remote machine and execute commands on it. SSH is the most common way to access remote UNIX servers securely."
 
 echo "------------"
 
