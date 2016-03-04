@@ -11,7 +11,7 @@ echo "This is the ${bold}exit${reset} command."
 echo -e 'exit'
 
 # the command's description
-echo "description here"
+echo "Causes the shell to exit. If there are processes running in the background, the shell will remind you that they are running and simply return you to the command prompt. In this case, issuing ${bold}exit${reset} again will terminate those jobs and exit the shell."
 
 echo "------------"
 
