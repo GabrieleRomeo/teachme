@@ -11,7 +11,7 @@ echo "This is the git ${bold}config${reset} command."
 echo -e 'git config'
 
 # the command's description
-echo "description here"
+echo "Used to update the .gitconfig file. The file can be edited at a global level to specify cnfiguration options for a particular user, and at the repository level to specify options for the particular repo. If the repo was cloned by another user, the settings would affect that user as well."
 
 echo "------------"
 
