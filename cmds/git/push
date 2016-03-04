@@ -11,7 +11,7 @@ echo "This is the git ${bold}push${reset} command."
 echo -e 'git push'
 
 # the command's description
-echo "Used to synchronize local changes with the remote repository. This is how you remotely share your code with other collaborators."
+echo "Used to synchronize local changes with the remote repository. This is how you remotely share your code with other collaborators. If no arguments are specified, the got config is consulted to retrieve default addresses of origin and master."
 
 echo "------------"
 
