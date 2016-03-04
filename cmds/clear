@@ -8,10 +8,11 @@ reset=`tput sgr0`
 echo "This is the ${bold}clear${reset} command."
 
 # The command's name
-echo -e 'clear'
+echo "${bold}clear${reset} - clear the terminal screen"
 
 # the command's description
-echo "description here"
+echo "${bold}clear${reset} clears your screen if this is possible."
+echo "It looks in the environment for the terminal type and then in the terminfo database to figure out how to clear the screen."
 
 echo "------------"
 
