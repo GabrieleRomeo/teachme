@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "alias ll='ls -l'"
+echo "It sets an alternative name (alias), called ${bold}ll${reset}, for the ${bold}ls -l${reset} command in your system."
 
 # example 2
-echo "test something"
-echo description here
+echo "alias dir='ls -al | grep ^d'"
+echo "It creates an alias called ${bold}dir${reset} that lists all existent directories in your current working directory"
 
 
 exit 0
