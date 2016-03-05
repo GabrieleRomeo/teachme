@@ -11,7 +11,7 @@ echo "This is the ${bold}whoami${reset} command."
 echo -e 'whoami'
 
 # the command's description
-echo "description here"
+echo "Used to show the username associated with the current effective user id - ${bold}UID${reset}"
 
 echo "------------"
 
