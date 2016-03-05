@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "wc -l script.sh"
+echo "Prints the newline counts inside the file 'script.sh'"
 
 # example 2
-echo "test something"
-echo description here
+echo "wc -w /dir/script.sh"
+echo "Prints the character counts inside the file 'script.sh' located into the directory 'dir'"
 
 
 exit 0
