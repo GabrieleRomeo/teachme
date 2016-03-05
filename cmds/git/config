@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git config --global user.name \"Your Username\" ; git config --global user.email youremail@mail.com"
+echo "It sets your credentials (username and email) in the Git environment. This is, usually, the first operation to do just after Git has been installed on your machine"  
 
 # example 2
-echo "git test something"
-echo description here
+echo "git config --global credential.helper 'cache --timeout=3600'"
+echo "It caches credentials in memory for use by future Git programs. In this example, the credentials will expire in one hour (3600 seconds)"
 
 
 exit 0
