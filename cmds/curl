@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "curl http://slashdot.org/index.html"
+echo "Fetches the file index.html from the SlashDot website and prints it on the screen."
 
 # example 2
-echo "test something"
-echo description here
+echo "curl -O http://slashdot.org/index.html"
+echo "Fetches the same file as above but outputs the result into a file of the same name, created in the present working directory."
 
 
 exit 0
