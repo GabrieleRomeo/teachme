@@ -11,7 +11,7 @@ echo "This is the git ${bold}merge${reset} command."
 echo -e 'git merge'
 
 # the command's description
-echo "description here"
+echo "Used to incorporate an isolated branch into your current branch"
 
 echo "------------"
 
