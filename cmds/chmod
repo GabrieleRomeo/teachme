@@ -11,7 +11,7 @@ echo "This is the ${bold}chmod${reset} command."
 echo -e 'chmod'
 
 # the command's description
-echo "description here"
+echo "Used to change file access permissions"
 
 echo "------------"
 
