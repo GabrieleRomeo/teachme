@@ -11,10 +11,10 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo -e "\t${bold}git reset [<mode>] [<commit>]${reset}"
+echo -e "\t${bold}--soft${reset}:\t Does not touch the index file or the working tree at all (but resets the head to <commit>)"
+echo -e "\t${bold}--mixed${reset}:\t Resets the index but not the working tree"
+echo -e "\t${bold}--hard${reset}:\t Resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded."
 
 echo "------------"
 
