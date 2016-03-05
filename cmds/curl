@@ -17,10 +17,12 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}curl [options]${reset} [URL...]"
+echo -e "\t${bold}-a/--append${reset}\t (FTP)  When used in an FTP upload, this will tell curl to append to the target file instead  of overwriting it"
+echo -e "\t${bold}-A/--user-agent <agent string>${reset}\t (HTTP) Specify the User-Agent string to send to the HTTP server."
+echo -e "\t${bold}-b/--cookie <name=data>${reset}\t (HTTP) Pass the data to the HTTP server as a cookie."
+echo -e "\t${bold}--ciphers <list of ciphers>${reset}\t (SSL) Specifies which ciphers to use in the connection."
+echo -e "\t${bold}--url <URL>${reset}\t Specify a URL to fetch"
 
 echo "------------"
 
