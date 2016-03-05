@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "sudo more myfile.txt"
+echo "List the contents of myfile.txt as the superuser."
 
 # example 2
-echo "test something"
-echo description here
+echo "sudo -u greg ls"
+echo "List the contents of the present working directory as user 'greg'."
 
 
 exit 0
