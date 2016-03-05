@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "ssh -p 1234 username@remote_host"
+echo "It uses the provided ${username}username${reset} and tries to set up a connection on port 1234 to the ${username}remote_host${reset} (an IP address or a domain name)" 
 
 # example 2
-echo "test something"
-echo description here
+echo "cat file | ssh -c -p 1234 -e none remote_host 'cat > file' 
+echo "It tries to copy a compressed (${bold}-c${reset} flag) local file onto a remote_host trying to set up a connection on port 1234"
 
 
 exit 0
