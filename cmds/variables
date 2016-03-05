@@ -17,10 +17,11 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}variable${reset}=${bold}value${reset}"
+echo -e "\t:\${${bold}variable?word${reset}} :\t Complain if undefined"
+echo -e "\t:\${${bold}variable-word${reset}} :\t Use ${bold}word${reset} as value if the ${bold}variable${reset} is undefined" 
+echo -e "\t:\${${bold}variable+word${reset}} :\t Use ${bold}word${reset} as value if the ${bold}variable${reset} is defined" 
+echo -e "\t:\${${bold}variable=word${reset}} :\t Set ${bold}word${reset} as the ${bold}variable${reset}'s name if is undefined" 
 
 echo "------------"
 
