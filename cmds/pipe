@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "ls | grep A"
+echo "Lists the current working directory and pipes the result into the grep command. It shows all files containing the character A"
 
 # example 2
-echo "test something"
-echo description here
+echo "ls | grep -i p | wc -w"
+echo "Lists the current working directory and pipes the result into the grep command and finally it pipes the grep's result into the wc command. It shows the number of words contained in the grep's result" 
 
 
 exit 0
