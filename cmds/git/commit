@@ -11,7 +11,7 @@ echo "This is the git ${bold}commit${reset} command."
 echo -e 'git commit'
 
 # the command's description
-echo "description here"
+echo "Used to record changes (snapshots) to the repository. Snapshots are always committed to the local repository."
 
 echo "------------"
 
