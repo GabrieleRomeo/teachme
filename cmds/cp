@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "cp myfile.txt /Documents"
+echo "Copies myfile.txt to /Documents."
 
 # example 2
-echo "test something"
-echo description here
+echo "cp -R /Documents/manuals/* /Guides"
+echo "Recursively copy all files and subdirectories of /Documents/manuals into /Guides."
 
 
 exit 0
