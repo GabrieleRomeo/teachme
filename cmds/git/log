@@ -11,7 +11,7 @@ echo "This is the git ${bold}log${reset} command."
 echo -e 'git log'
 
 # the command's description
-echo "description here"
+echo "Used to show the list of all the commit messages that have lead up to the current snapshot."
 
 echo "------------"
 
