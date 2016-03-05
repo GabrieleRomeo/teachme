@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "mkdir -m 755 test"
+echo "Creates a new directory called 'test' and sets its access permissions to 755 (rwx-r-xr-x)"
 
 # example 2
-echo "test something"
-echo description here
+echo "mkdir -p dir1/dir2/dir3"
+echo "Throws no error if existing and makes parent directories as needed. In this example, The previous example creates /dir3 inside /dir2, inside /dir1" 
 
 
 exit 0
