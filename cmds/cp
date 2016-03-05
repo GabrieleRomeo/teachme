@@ -16,11 +16,12 @@ echo "description here"
 echo "------------"
 
 # the command's syntax
-echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}cp [OPTION]... SOURCE DEST${reset}"
+echo "${bold}cp [OPTION]... SOURCE... DIRECTORY${reset}”
+echo -e "\t-${bold}f${reset}, -${bold}force${reset}: if an existing destination file cannot be opened, remove it and try again"
+echo -e "\t-${bold}i${reset}, --${bold}interactive${reset}: prompt before overwrite"
+echo -e "\t-${bold}H${reset}: follow command-line symbolic links"
+
 
 echo "------------"
 
