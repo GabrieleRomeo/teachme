@@ -26,12 +26,29 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "
+echo "i=0"
+echo "while [ $i -le 10 ]"
+echo "do"
+echo -e "\techo \"i is equal to $x\""
+echo -e "\t i=$(( $i + 1 ))"
+echo "done"
+
+echo "It defines a {$bold}while${reset} loop that evaluates the internal code (between do and done),  n times (from 0 to 10 = 11 times)"
+echo -e "\nIt prints the value of i until the count doesn't reaches the value of 10" 
 
 # example 2
-echo "test something"
-echo description here
+echo "while true"
+echo "do"
+echo "read -p \"Do you wish to quit ? ( y / n ) : \" reply"
+echo -e "\tcase \"\$reply\" in"
+echo -e "\t\t[Yy]* ) echo \"Ok, you're lucky ..\"; exit 0;;"
+echo -e "\t\t[Nn]* ) echo \"I want to torment you with my internal loop\";;"
+echo -e "\t\t* ) echo \"This reply is not allowed! Are you crazy or what !?!?\";;"
+echo -e "\tesac"
+echo "done"
+echo "It defines a {$bold}while${reset} loop that prompts the user for a crazy game :-D"
+echo -e "It evaluates the internal code until the reply won't be ${bold}yes${reset}.\nIndeed while ${bold}true${reset} is an infinite loop. It ends only when an user inserts yes because of the ${bold}exit 0${reset} statement."
 
 
 exit 0
