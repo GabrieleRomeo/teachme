@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git status"
+echo "Displays changes in tracked files between the working tree and the HEAD commit. Also displays a list of untracked paths."
 
 # example 2
-echo "git test something"
-echo description here
+echo "git status --porcelain"
+echo "Gives the same output as above in a format that's easy to parse for scripts."
 
 
 exit 0
