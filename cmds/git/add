@@ -11,7 +11,7 @@ echo "This is the git ${bold}add${reset} command."
 echo -e 'git add'
 
 # the command's description
-echo "description here"
+echo "Used to add files to the Git's staging area. If you want to start tracking any new file (and also to stage changes to already tracked files), you need to add them with ${bold}git add${reset}."
 
 echo "------------"
 
