@@ -18,9 +18,9 @@ echo "------------"
 # the command's syntax
 echo "Syntax:"
 echo "${bold}tar [OPTION...] [FILE]...${reset}"			
-echo -e "\t-${bold}-c, --create:${reset} \t create a new archive"			
-echo -e "\t-${bold}-v, --verbose:${reset} \t verbosely list files processed"			
-echo -e "\t-${bold}-f, --file=ARCHIVE${reset} \t use archive file or device ARCHIVE"			
+echo -e "\t${bold}-c, --create:${reset} \t create a new archive"			
+echo -e "\t${bold}-v, --verbose:${reset} \t verbosely list files processed"			
+echo -e "\t${bold}-f, --file=ARCHIVE${reset} \t use archive file or device ARCHIVE"			
 
 echo "------------"
 
