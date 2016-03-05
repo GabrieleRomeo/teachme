@@ -11,7 +11,7 @@ echo "This is the ${bold}grep${reset} command."
 echo -e 'grep'
 
 # the command's description
-echo "description here"
+echo "Used to search inside the named input FILEs (or standard input if no files are named, or the file name - is given) for lines containing a match to the given PATTERN"
 
 echo "------------"
 
