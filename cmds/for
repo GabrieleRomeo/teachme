@@ -11,7 +11,7 @@ echo "This is the ${bold}for${reset} command."
 echo -e 'for'
 
 # the command's description
-echo "description here"
+echo "The ${bold}for${reset} command is a programming construct, used to iterate through items in a list or an Array, one at a time until you reach the end."
 
 echo "------------"
 
