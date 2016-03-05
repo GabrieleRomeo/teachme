@@ -11,7 +11,7 @@ echo "This is the ${bold}ping${reset} command."
 echo -e 'ping'
 
 # the command's description
-echo "description here"
+echo "ping uses the ICMP protocol’s mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from a host or gateway."
 
 echo "------------"
 
