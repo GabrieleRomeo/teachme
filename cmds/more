@@ -17,10 +17,11 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}more${reset} [${bold}-dlfpcsu${reset}] [${bold}-num${reset}] [+/ pattern] [+ linenum] [file ...]"
+echo -e "\t{$bold}-d${reset}\tWhen an illegal key is pressed, ${bold}more${reset} will prompt the user instead of ringing the bell."
+echo -e "\t{$bold}-l${reset}\tUsually treats ^L (form feed) as a special character, and will pause after any line that contains it.  The -l option will prevent this behavior."
+echo -e "\t${bold}-c${reset}\tDo not scroll. Paint each screen from the top, clearing the remainder of each line as it is displayed"
+echo -e "\tThe ${bold}+/${reset} option specifies a string that will be searched for before each file is displayed."
 
 echo "------------"
 
