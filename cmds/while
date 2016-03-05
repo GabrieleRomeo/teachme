@@ -30,12 +30,12 @@ echo "
 echo "i=0"
 echo "while [ $i -le 10 ]"
 echo "do"
-echo -e "\techo \"i is equal to $x\""
+echo -e "\techo \"i is equal to $i\""
 echo -e "\t i=$(( $i + 1 ))"
 echo "done"
 
 echo "It defines a {$bold}while${reset} loop that evaluates the internal code (between do and done),  n times (from 0 to 10 = 11 times)"
-echo -e "\nIt prints the value of i until the count doesn't reaches the value of 10" 
+echo -e "\nIt prints the value of i until the count doesn't reach 10" 
 
 # example 2
 echo "while true"
