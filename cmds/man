@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "man mv"
+echo "View the manual for the mv command."
 
 # example 2
-echo "test something"
-echo description here
+echo "man -fK more"
+echo "Search for the short description of the more command (if available) in all the man pages. It is a brute force search and will likely take some time."
 
 
 exit 0
