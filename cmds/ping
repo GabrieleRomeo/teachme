@@ -18,9 +18,9 @@ echo "------------"
 # the command's syntax
 echo "Syntax:"
 echo "${bold}ping [OPTIONS]... destination[options]${reset}"			
-echo -e "\t-${bold}-c count:${reset} \t Stop after sending count ECHO_REQUEST packets. With deadline option, ping waits for count ECHO_REPLY packets, until the timeout expires."			
-echo -e "\t-${bold}-v:${reset} \t Verbose output."			
-echo -e "\t-${bold}-i interval:${reset} \t Wait interval seconds between sending each packet. The default is to wait for one second between each packet normally, or not to wait in flood mode. Only super-user may set interval to values less 0.2 seconds."			
+echo -e "\t${bold}-c count:${reset} \t Stop after sending count ECHO_REQUEST packets. With deadline option, ping waits for count ECHO_REPLY packets, until the timeout expires."			
+echo -e "\t${bold}-v:${reset} \t Verbose output."			
+echo -e "\t${bold}-i interval:${reset} \t Wait interval seconds between sending each packet. The default is to wait for one second between each packet normally, or not to wait in flood mode. Only super-user may set interval to values less 0.2 seconds."			
 
 echo "------------"
 
