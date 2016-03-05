@@ -27,7 +27,7 @@ echo "------------"
 # the command's usage examples
 # example 1
 echo "mkdir -m 755 test"
-echo "Creates a new directory called 'test' and sets its access permissions to 755 (rwx-r-xr-x)"
+echo "Creates a new directory called 'test' and sets its access permissions to 755 (rwxr-xr-x)"
 
 # example 2
 echo "mkdir -p dir1/dir2/dir3"
