@@ -17,10 +17,10 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}man [OPTIONS]... COMMANDNAME${reset}"
+echo -e "\t${bold}-C file${reset}, ${bold}--config-file=file${reset}: \t Use configuration file file rather than the default of ~/.manpath."
+echo -e "\t${bold}-k${reset}, ${bold}--apropos${reset}: \tSearch the short manual page descriptions for keywords and display any matches."
+echo -e "\t${bold}-K${reset}, ${bold}--global-apropos${reset}:\tSearch for text in all manual pages. This is a brute-force search, and is likely to take some time."
 
 echo "------------"
 
