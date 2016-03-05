@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git rm *.txt"
+echo "Removes all .txt files from the current directory."
 
 # example 2
-echo "git test something"
-echo description here
+echo "git -rf /dir"
+echo "Recursively deletes all files and subdirectries in /dir if they are not up-to-date with your last checked out commit."
 
 
 exit 0
