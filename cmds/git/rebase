@@ -11,7 +11,7 @@ echo "This is the git ${bold}rebase${reset} command."
 echo -e 'git rebase'
 
 # the command's description
-echo "description here"
+echo "Used to take all the changes that were committed on one branch and replay them on another one. In practice, it moves a specific branch onto a new 'base' commit. This allows to have a more linear history."
 
 echo "------------"
 
