@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "rm -rf test"
+echo "Removes the contents of directory 'test' recursively ${bold}-r${reset}. It ignores nonexistent files, never prompt ${bold}-f${reset}" 
 
 # example 2
-echo "test something"
-echo description here
+echo "rm -- -file"
+echo "Removes a file that starts with a ‘-’"
 
 
 exit 0
