@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "echo 'Hello world!'"
+echo "Prints 'Hello world!' on the screen."
 
 # example 2
-echo "test something"
-echo description here
+echo "echo -e 'Hello\tworld!'"
+echo "Prints 'Hello   world!' on the screen as command escaping is enabled and '\t' represents a tab."
 
 
 exit 0
