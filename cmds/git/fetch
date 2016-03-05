@@ -87,12 +87,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git fetch origin"
+echo "Updates all the remote tracking branches but does not merge them."
 
 # example 2
-echo "git test something"
-echo description here
+echo "git fetch git://git.kernel.org/pub/scm/git/git.git feature"
+echo "Fetches the branch named 'feature' from the specified URL."
 
 
 exit 0
