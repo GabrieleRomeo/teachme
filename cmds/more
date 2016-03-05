@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "more -d myfile.txt"
+echo "Displays the contents of myfile.txt and prompts the user with the message '[Press space to continue, 'q' to quit.]'"
 
 # example 2
-echo "test something"
-echo description here
+echo "more +/'test' myfile.txt"
+echo "Display the contents of myfile.txt, beginning at the first line containing the string 'test'."
 
 
 exit 0
