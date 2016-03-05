@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "mv myfile.txt ../"
+echo "Moves myfile.txt to its parent directory."
 
 # example 2
-echo "test something"
-echo description here
+echo "mv -n myfile.txt /Documents"
+echo "Moves myfile.txt to the Documents folder and does not rewrite the file if it already exists."
 
 
 exit 0
