@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "exit"
+echo "Causes the shell to exit with the default exit code ${bold}0${reset}"
 
 # example 2
-echo "test something"
-echo description here
+echo "exit 1"
+echo "Causes the shell to exit with the exit code ${bold}1${reset}"
 
 
 exit 0
