@@ -11,7 +11,7 @@ echo "This is the ${bold}rmdir${reset} command."
 echo -e 'rmdir'
 
 # the command's description
-echo "description here"
+echo "Used to remove one or more DIRECTORY, if they are empty."
 
 echo "------------"
 
