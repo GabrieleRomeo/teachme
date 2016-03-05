@@ -26,9 +26,9 @@ echo -e "\t--version: output version information and exit"
 echo "------------"
 
 echo "${bold}rmdir [OPTION]... DIRECTORY...${reset}"			
-echo -e "\t-${bold}--ignore-fail-on-non-empty:${reset} \t ignore each failure that is solely because a directory is non-empty"			
-echo -e "\t-${bold}-p, --parents:${reset} \t remove DIRECTORY and its ancestors; e.g., 'rmdir -p a/b/c' is similar to 'rmdir a/b/c a/b a'"			
-echo -e "\t-${bold}-v, --verbose:${reset} \t output a diagnostic for every directory processed"			
+echo -e "\t${bold}--ignore-fail-on-non-empty:${reset} \t ignore each failure that is solely because a directory is non-empty"			
+echo -e "\t${bold}-p, --parents:${reset} \t remove DIRECTORY and its ancestors; e.g., 'rmdir -p a/b/c' is similar to 'rmdir a/b/c a/b a'"			
+echo -e "\t${bold}-v, --verbose:${reset} \t output a diagnostic for every directory processed"			
 
 # the command's usage examples
 # example 1
