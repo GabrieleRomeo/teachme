@@ -31,7 +31,7 @@ echo "View the manual for the mv command."
 
 # example 2
 echo "man -fK more"
-echo "Search for the short description of the more command (if available) in all the man pages. It is a brute force search and will likely take sme time."
+echo "Search for the short description of the more command (if available) in all the man pages. It is a brute force search and will likely take some time."
 
 
 exit 0
