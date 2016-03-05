@@ -17,10 +17,10 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}git rm [OPTIONS]${reset}"
+echo -e "\t-${bold}f${reset}:\t Override the up-to-date check."
+echo -e "\t-${bold}n${reset}:\t Don’t actually remove any file(s). Show if they exist in the index and would otherwise be removed by the command"
+echo -e "\t-${bold}r${reset}:\t Allow recursive removal when a leading directory name is given."
 
 echo "------------"
 
