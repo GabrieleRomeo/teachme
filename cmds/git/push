@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git push -u origin <branchname>"
+echo "It pushes the branch <${bold}branchname${reset}> to \“origin\” and sets tracking (an upstream link). The ${bold}-u${reset} flag ensures that whenever changes happen on \"origin\", such as when a collaborator pushes changes that you don’t have locally, Git will notify you of those changes"
 
 # example 2
-echo "git test something"
-echo description here
+echo "git push origin tag <tagname>"
+echo "It pushes the tag <${bold}tagname${reset}> to \"origin\""
 
 
 exit 0
