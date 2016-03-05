@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "find . -perm 755"
+echo "Starting from the current working directory ${bold}.${reset}, it finds all files with specific permissions (755 in this example)"
 
 # example 2
-echo "test something"
-echo description here
+echo "find / -name '[a-zA-Z]*-[0-9].md' -print"
+echo "Starting from the root directory ${bold}/${reset}, it finds all files whose name contains a specific pattern (in this example file names like abc-1.md or ABC-1.md, etc.), via regular expressions. The path of the file is not matched with the -${bold}name${reset} option"
 
 
 exit 0
