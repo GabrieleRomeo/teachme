@@ -11,7 +11,7 @@ echo "This is the ${bold}tar${reset} command."
 echo -e 'tar'
 
 # the command's description
-echo "description here"
+echo "Used to store and extract files from an archive file known as a ${bold}tarfile${reset}"
 
 echo "------------"
 
