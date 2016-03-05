@@ -25,28 +25,15 @@ echo -e "\targument2: description of argument 2"
 echo "------------"
 
 # the command's usage examples
-echo "ls"
-echo "display the contents of the current directory"
-
-echo "ls -l"
-echo "display the content of the current working directory using a long listing format"
-
-echo "ls -la"
-echo "display the content of the current working directory and include directory entries whose names begin with a dot (.)"
-
-echo "ls -l /dir"
-echo "display the content of the directory ${bold}dir${reset} using a long listing format"
 
 echo "ls -lR /dir"
-echo "display the content of the directory ${bold}dir${reset} and all its subdirectories recursively using a long listing format"
-
+echo "It shows (recursively) the content of the directory ${bold}dir${reset} and all its subdirectories using a long listing format"
 echo "ls -lh"
-echo "display the content of the current working directory using a long listing format and print file sizes in human readable format (e.g., 1K 234M 2G)"
+echo "It shows the content of the current working directory using a long listing format and print file sizes in human readable format (e.g., 1K 234M 2G)"
+echo "ls -ltr"
+echo "It shows latest modification file or directory date as last. (Reverse Output Order)"
+echo "ls -n"
+echo "It shows the UID and GID of files and directories in the current working directory" 
 
-echo "ls -i"
-echo "display the content of the current working directory and print the index number of each file"
-
-echo "ls -lS"
-echo "display the content of the current working directory sorted by file size"
 
 exit 0
