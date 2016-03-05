@@ -17,10 +17,10 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}sudo -K │ -L │ -V │ -h │ -k │ -l │ -v${reset}"
+echo -e "\t${bold}-H${reset}:\t sets the HOME environment variable to the homedir of the target user (root by default)"
+echo -e "\t${bold}-b${reset}:\t tells sudo to run the given command in the background"
+echo -e "\t${bold}-c${reset}:\t causes sudo to run the specified command with resources limited by the specified login class"
 
 echo "------------"
 
