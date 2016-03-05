@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git checkout bug12"
+echo "Checks out the branch 'bug12' if it exists."
 
 # example 2
-echo "git test something"
-echo description here
+echo "git checkout -b bug12"
+echo "Creates the branch 'bug12' and checks it out. "
 
 
 exit 0
