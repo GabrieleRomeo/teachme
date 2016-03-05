@@ -30,8 +30,8 @@ echo "git push -u origin <branchname>"
 echo "It pushes the branch <${bold}branchname${reset}> to \“origin\” and sets tracking (an upstream link). The ${bold}-u${reset} flag ensures that whenever changes happen on \"origin\", such as when a collaborator pushes changes that you don’t have locally, Git will notify you of those changes"
 
 # example 2
-echo "git push origin tag <tagname>"
-echo "It pushes the tag <${bold}tagname${reset}> to \"origin\""
+echo "git push origin ${bold}:${reset}<branchname>"
+echo "It removes the branch <${bold}branchname${reset}> of the \"origin\". The special colon character ${bold}:${reset} says to Git that you want to remove that branch"
 
 
 exit 0
