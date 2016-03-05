@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git pull"
+echo "Updates your remote tracking branches and merges the corresponding one with your current branch."
 
 # example 2
-echo "git test something"
-echo description here
+echo "git pull origin master"
+echo "Merges the master branch from the remote into your current branch"
 
 
 exit 0
