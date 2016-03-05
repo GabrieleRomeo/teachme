@@ -26,12 +26,14 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git init"
+echo "It initializes an empty Git repository in the current working directory"
 
 # example 2
-echo "git test something"
-echo description here
+echo "git init --bare"
+echo "It initializes a Git 'bare' repository. A Bare repository is generally known as a 'central' repository. In practice, Git treats the current directory as the .git directory"
+
+ 
 
 
 exit 0
