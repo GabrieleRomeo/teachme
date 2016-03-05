@@ -17,10 +17,12 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echc "${bold}mv [OPTION]... SOURCE DEST${reset}"
+echo "${bold}mv [OPTION]... SOURCE... DIRECTORY${reset}"
+echo "${bold}mv [OPTION]... --target-directory=DIRECTORY SOURCE...${reset}"
+echo -e "\t${bold}-f${reset}, ${bold}--force${reset}: do not prompt before overwriting""
+echo -e "\t${bold}-i${reset}, ${bold}--interactive${reset}: prompt before overwrite"
+echo -e "\t${bold}--backup${reset}[=CONTROL]: make a backup of each existing destination file"
 
 echo "------------"
 
