@@ -27,11 +27,11 @@ echo "------------"
 # the command's usage examples
 # example 1
 echo "git diff HEAD^ HEAD <file>"
-echo "It shows the differences for the file <${bold}file${reset}> between now and one commit back. The special character ${bold}^${reset} is used for specify the number of commit back (you can use also this notation ~1)"
+echo -e "It shows the differences for the file <${bold}file${reset}> between now and one commit back. The special character ${bold}^${reset} is used for specify the number of commit back (you can use also this notation ~1)"
 
 # example 2
-echo "git diff hotfix:cmds/command1.sh git hotfix~1:cmds/command1.sh"
-echo "Same as the previous example but, now, it shows the differences for the file located on a specific branch. The general pattern to use is <${bold}branchname${reset}>:<${bold}file${reset}> <${bold}branchname${reset}>${bold}~1${reset}:<${bold}file${reset}> and the number of commits back is specified just after the ${bold}~${reset} character"
+echo "git diff hotfix:cmds/command1.sh hotfix~1:cmds/command1.sh"
+echo -e "Same as the previous example but, now, it shows the differences for the file located on a specific branch. \nThe general pattern to use is <${bold}branchname${reset}>:<${bold}file${reset}> <${bold}branchname${reset}>${bold}~1${reset}:<${bold}file${reset}> and the number of commits back is specified just after the ${bold}~${reset} character"
 
 
 exit 0
