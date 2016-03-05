@@ -17,10 +17,10 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}git log [OPTION]...${reset}"			
+echo -e "\t${bold}-n <number>${reset} \t Limit the number of commits to output."			
+echo -e "\t${bold}--skip=<number>${reset} \t Skip number commits before starting to show the commit output."			
+echo -e "\t${bold}--grep=<pattern>${reset} \t Limit the commits output to ones with log message that matches the specified pattern (regular expression). With more than one --grep=<pattern>, commits whose message matches any of the given patterns are chosen (but see --all-match)."			
 
 echo "------------"
 
