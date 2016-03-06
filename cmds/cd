@@ -27,12 +27,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "cd ~"
+echo "Navigate to your home directory"
 
 # example 2
-echo "test something"
-echo description here
+echo "cd .."
+echo "Navigate up one level. If the user is in /Documents/User, the result will be /Documents."
 
 
 exit 0
