@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
 
-bold=`tput bold`
-underline=`tput smul`
-stop_underline=`tput rmul`
-reset=`tput sgr0`
+bold=$(tput bold)
+underline=$(tput smul)
+stop_underline=$(tput rmul)
+reset=$(tput sgr0)
 
 echo -e "This is the ${bold}pwd${reset} command. (${bold}P${reset}rint ${bold}W${reset}orking ${bold}D${reset}irectory)"
 
