@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 
-bold=`tput bold`
-underline=`tput smul`
-stop_underline=`tput rmul`
-reset=`tput sgr0`
+bold=$(tput bold)
+underline=$(tput smul)
+stop_underline=$(tput rmul)
+reset=$(tput sgr0)
 
 echo "This is the git ${bold}config${reset} command."
 
