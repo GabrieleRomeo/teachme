@@ -35,5 +35,4 @@ echo "It shows latest modification file or directory date as last. (Reverse Outp
 echo "ls -n"
 echo "It shows the UID and GID of files and directories in the current working directory" 
 
-
 exit 0
