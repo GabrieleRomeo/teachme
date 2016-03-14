@@ -24,12 +24,9 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "clear"
+echo  "The clear command is used to remove all previous commands and output from consoles and terminal windows"
 
-# example 2
-echo "test something"
-echo description here
 
 
 exit 0
