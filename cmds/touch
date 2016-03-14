@@ -25,12 +25,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "touch test"
+echo "create an empty file"
 
 # example 2
-echo "test something"
-echo description here
+echo "touch -c -t 03101730 test"
+echo "sets the access and modification date and time to a file test as 17:30 (17:30 p.m.) March 10 of the current year (2016)."
 
 
 exit 0
