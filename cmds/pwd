@@ -28,12 +28,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "pwd -L"
+echo "The -L option cause pwd to use $PWD from envirionment, even if it contains symlinks."
 
 # example 2
-echo "test something"
-echo description here
+echo $OLDPWD
+echo "It shows the previous working directory as set by the cd command"
 
 
 exit 0
