@@ -17,10 +17,14 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}rm [OPTION]...${reset}"
+echo -e "\t-${bold}-f, --force:${reset} \t ignore nonexistant files, and never prompt before removing."			
+echo -e "\t-${bold}-i:${reset} \t Prompt before every removal"	
+echo -e "\t-${bold}-I:${reset} \t Prompt once before removing more than three files, or when removing recursively. Less intrusive than -i, while still giving protection against most mistakes"
+echo -e "\t-${bold}-r, -R, --recursive:${reset} \t Remove directories and their contents recursively"			
+echo -e "\t-${bold--help:${reset} \t display this help and exit"					
+echo -e "\t-${bold}--version:${reset} \t output version information and exit"
+
 
 echo "------------"
 
