@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git commit -m 'commit comments' "
+echo "use the -m option to provide the commit message on the command line"
 
 # example 2
-echo "git test something"
-echo description here
+echo "git commit -a"
+echo "automatically stage all tracked, modified files before the commit"
 
 
 exit 0
