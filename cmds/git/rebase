@@ -28,12 +28,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git rebase -i <after-this-commit>"
+echo "Start it with the last commit you want to retain"
 
 # example 2
-echo "git test something"
-echo description here
+echo "git rebase -i HEAD~5"
+echo "reorder the last 5 commits, such that what was HEAD~4 becomes the new HEAD"
 
 
 exit 0
