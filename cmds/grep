@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "grep "this" test1 test2"
+echo  "checking for the given string in multiple files"
 
 # example 2
-echo "test something"
-echo description here
+echo "grep -iw \"is\" test"
+echo  "checking for full words, not for sub-strings using grep -w"
 
 
 exit 0
