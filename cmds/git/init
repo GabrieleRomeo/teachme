@@ -17,10 +17,12 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}init [OPTION]...${reset}"
+echo -e "\t-${bold}-q, --quiet:${reset} \t only print error and warning messages; all other output will be suppressed"			
+echo -e "\t-${bold}-b, --bare:${reset} \t create a bare repository. If GIT_DIR environment is not set, it is set to the current working directory"			
+echo -e "\t-${bold}--template:${reset} \t specify the directory from which templates will be used"			
+echo -e "\t-${bold--help:${reset} \t display this help and exit"					
+echo -e "\t-${bold}--version:${reset} \t output version information and exit"	
 
 echo "------------"
 
