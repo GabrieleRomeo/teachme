@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "ping -i 5 www.google.com"
+echo "Wait for 5 seconds before sending the next packet"
 
 # example 2
-echo "test something"
-echo description here
+echo "ping -c 5 google.com"
+echo "ping command sends 5 packets, and waits for response from the destination host. Also,You can identify the ip-address using the host name"
 
 
 exit 0
