@@ -11,7 +11,7 @@ echo "This is the ${bold}cd${reset} command."
 echo -e 'cd'
 
 # the command's description
-echo "description here"
+echo "The cd command, also known as chdir (change directory), is a command-line OS shell command used to change the current working directory in operating systems"
 
 echo "------------"
 
