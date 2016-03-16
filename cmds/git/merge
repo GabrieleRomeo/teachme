@@ -27,12 +27,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git merge test"
+echo  "merge the specified branch into the current branch"
 
 # example 2
-echo "git test something"
-echo description here
+echo "git merge --no-ff test"
+echo "Merge the specified branch into the current branch, but always generate a merge commit"
 
 
 exit 0
