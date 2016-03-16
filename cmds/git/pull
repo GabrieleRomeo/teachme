@@ -11,7 +11,7 @@ echo "This is the git ${bold}pull${reset} command."
 echo -e 'git pull'
 
 # the command's description
-echo "description here"
+echo "git pull runs git fetch with the given parameters and calls git merge to merge the retrieved branch heads into the current branch. With --rebase, it runs git rebase instead of git merge"
 
 echo "------------"
 
