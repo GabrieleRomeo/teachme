@@ -17,10 +17,14 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}grep  [OPTION]...pattern file(s)${reset}"
+echo -e "\t-${bold}-v:${reset} \t Print all lines that do not match pattern"			
+echo -e "\t-${bold}-n:${reset} \t Print the matched line and its line number"		
+echo -e "\t-${bold}-l:${reset} \t Print only the names of files with matching lines"		
+echo -e "\t-${bold}-c:${reset} \t Print only the count of matching lines"		
+echo -e "\t-${bold}-i:${reset} \t Match either upper- or lowercase"		
+echo -e "\t-${bold--help:${reset} \t display this help and exit"					
+echo -e "\t-${bold}--version:${reset} \t output version information and exit"	
 
 echo "------------"
 
