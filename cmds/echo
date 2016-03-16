@@ -11,7 +11,7 @@ echo "This is the ${bold}echo${reset} command."
 echo -e 'echo'
 
 # the command's description
-echo "description here"
+echo "echo displays a line of text"
 
 echo "------------"
 
