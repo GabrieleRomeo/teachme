@@ -17,7 +17,8 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "exit"
+echo "exit [code]"
+echo -e "\t[code]: an optional exit code"
 
 
 echo "------------"
