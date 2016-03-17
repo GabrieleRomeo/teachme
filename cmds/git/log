@@ -26,12 +26,13 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git log --all"
+echo "force the log tool display all commits (regardless of the branch checked out) by using the –all option"
 
 # example 2
-echo "git test something"
-echo description here
+echo "git log --author <name>"
+echo "git log --committer <name>"
+echo "filter commits is by the person who wrote or committed the changes. This can be done using the –author and –committer options."
 
 
 exit 0
