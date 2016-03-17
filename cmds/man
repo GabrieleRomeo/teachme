@@ -11,7 +11,7 @@ echo "This is the ${bold}man${reset} command."
 echo -e 'man'
 
 # the command's description
-echo "description here"
+echo "Short for Manual, man is a Unix and Linux command to display the manual of a command. For example, at the Linux prompt typing \"man ls\" would display the manual for the ls command"
 
 echo "------------"
 
