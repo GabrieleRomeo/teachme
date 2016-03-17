@@ -11,7 +11,7 @@ echo "This is the ${bold}sudo${reset} command."
 echo -e 'sudo'
 
 # the command's description
-echo "description here"
+echo "sudo allows a permitted user to execute a command as the superuser or another user, as specified by the security policy."
 
 echo "------------"
 
