@@ -20,9 +20,9 @@ echo "Syntax:"
 echo "${bold}mkdir [OPTION]...DIRECTORY ... ${reset}"
 echo -e "\t-${bold}-m, --mode=MODE:${reset} \t set file mode(as with command)"			
 echo -e "\t-${bold}-p, --parents:${reset} \t create parent directories as necessary. When this option is used, no error is reported if a specified DIRECTORY already exists."			
-echo -e "\t-${bold-v, --verbose:${reset} \t verbose output; print a message for each created directory"					
+echo -e "\t-${bold}-v, --verbose:${reset} \t verbose output; print a message for each created directory"					
 echo -e "\t-${bold}-Z, --context=CTX:${reset} \t set the SELinux security context of each created directory to the context CTX"	
-echo -e "\t-${bold--help:${reset} \t display this help and exit"					
+echo -e "\t-${bold}--help:${reset} \t display this help and exit"					
 echo -e "\t-${bold}--version:${reset} \t output version information and exit"	
 
 
