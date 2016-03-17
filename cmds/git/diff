@@ -23,7 +23,7 @@ echo -e "\t-${bold}-U, --unified:${reset} \t generate diffs with <n> lines of co
 echo -e "\t-${bold}-a, --text:${reset} \t treat all files as text"			
 echo -e "\t-${bold}-w, --ignore-all-space:${reset} \t Ignore whitespace when comparing lines. This ignores differences even if one line has whitespace where the other line has none"			
 echo -e "\t-${bold}-W, --function-context:${reset} \t show whole surrounding functions of changes"			
-echo -e "\t-${bold--help:${reset} \t display this help and exit"					
+echo -e "\t-${bold}--help:${reset} \t display this help and exit"					
 echo -e "\t-${bold}--version:${reset} \t output version information and exit"	
 
 echo "------------"
