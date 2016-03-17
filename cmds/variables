@@ -11,7 +11,7 @@ echo "This is the ${bold}variables${reset} command."
 echo -e 'variables'
 
 # the command's description
-echo "description here"
+echo "Variables act as named locations in memory for storing useful information while running a Bash script."
 
 echo "------------"
 
