@@ -11,7 +11,7 @@ echo "This is the ${bold}more${reset} command."
 echo -e 'more'
 
 # the command's description
-echo "description here"
+echo "more is a filter for paging through text one screen at a time. It does not provide as many options or enhancements as less, but is nevertheless quite useful and simple to use"
 
 echo "------------"
 
