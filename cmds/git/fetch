@@ -12,7 +12,7 @@ echo "This is the git ${bold}fetch${reset} command."
 echo -e 'git fetch'
 
 # the command's description
-echo "description here"
+echo "Download objects and refs from another repository"
 
 echo "------------"
 
