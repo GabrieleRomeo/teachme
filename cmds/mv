@@ -11,7 +11,7 @@ echo "This is the ${bold}mv${reset} command."
 echo -e 'mv'
 
 # the command's description
-echo "description here"
+echo "mv renames file SOURCE to DEST, or moves the SOURCE file (or files) to DIRECTORY"
 
 echo "------------"
 
