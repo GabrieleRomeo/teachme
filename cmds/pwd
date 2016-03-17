@@ -28,12 +28,11 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
-
+echo "pwd -P"
+echo "Display the physical current working directory (all symbolic links resolved)"
 # example 2
-echo "test something"
-echo description here
+echo "$PWD $OLDPWD"
+echo "To print the current working directory (PWD) and the previous working directory (OLDPWD) as set by the cd command"
 
 
 exit 0
