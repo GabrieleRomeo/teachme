@@ -32,12 +32,12 @@ echo -e "\t${bold}-v, --verbose:${reset} \t output a diagnostic for every direct
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "rmdir test1 test2"
+echo " remove two empty directories named dir1 and dir2 that are located in the current directory"
 
 # example 2
-echo "test something"
-echo description here
+echo "rmdir -p test1/test2/test3"
+echo "Use option -p, to delete nested directories "
 
 
 exit 0
