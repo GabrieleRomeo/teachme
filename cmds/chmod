@@ -28,12 +28,11 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "chmod u+x test"
+echo "add the execution permission (x) for the owner (u) to a particular file/directory (in this case 'test')"
 
 # example 2
-echo "test something"
-echo description here
-
+echo "chmod -R 755 test/"
+echo "apply the permission to all the files under a directory recursively (in this case 'test')"
 
 exit 0
