@@ -11,7 +11,7 @@ echo "This is the git ${bold}status${reset} command."
 echo -e 'git status'
 
 # the command's description
-echo "description here"
+echo "Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git"
 
 echo "------------"
 
