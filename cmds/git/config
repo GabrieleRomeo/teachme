@@ -18,12 +18,12 @@ echo "------------"
 # the command's syntax
 echo "Syntax:"
 echo "${bold}git config [OPTION]...${reset}"
-echo -e "\t-${bold}-add:${reset} \t dds a new line to the option without altering any existing values"			
-echo -e "\t-${bold}-get:${reset} \t get the value for a given key (optionally filtered by a regex matching the value). Returns error code 1 if the key was not found and the last value if multiple key values were found"			
-echo -e "\t-${bold}-l, --list:${reset} \t list all variables set in config file"	
+echo -e "\t-${bold}-add:${reset} \t adds a new line to the option without altering any existing values"			
+echo -e "\t-${bold}-get:${reset} \t gets the value for a given key (optionally filtered by a regex matching the value). Returns error code 1 if the key was not found and the last value if multiple key values were found"			
+echo -e "\t-${bold}-l, --list:${reset} \t lists all variables set in config file"	
 echo -e "\t-${bold}-e, --edit:${reset} \t opens an editor to modify the specified config file"	
-echo -e "\t-${bold--help:${reset} \t display this help and exit"					
-echo -e "\t-${bold}--version:${reset} \t output version information and exit"	
+echo -e "\t-${bold--help:${reset} \t displays this help and exit"					
+echo -e "\t-${bold}--version:${reset} \t outputs version information and exit"	
 
 echo "------------"
 
