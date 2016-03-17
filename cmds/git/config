@@ -17,10 +17,13 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}git config [OPTION]...${reset}"
+echo -e "\t-${bold}-add:${reset} \t adds a new line to the option without altering any existing values"			
+echo -e "\t-${bold}-get:${reset} \t gets the value for a given key (optionally filtered by a regex matching the value). Returns error code 1 if the key was not found and the last value if multiple key values were found"			
+echo -e "\t-${bold}-l, --list:${reset} \t lists all variables set in config file"	
+echo -e "\t-${bold}-e, --edit:${reset} \t opens an editor to modify the specified config file"	
+echo -e "\t-${bold--help:${reset} \t displays this help and exit"					
+echo -e "\t-${bold}--version:${reset} \t outputs version information and exit"	
 
 echo "------------"
 
