@@ -12,7 +12,7 @@ echo "This is the git ${bold}reset${reset} command."
 echo -e 'git reset'
 
 # the command's description
-echo "description here"
+echo "Reset current HEAD to the specified state"
 
 echo "------------"
 
