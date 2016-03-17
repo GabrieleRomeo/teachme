@@ -17,10 +17,15 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}wc [OPTION]...[FILE]...${reset}"
+echo -e "\t-${bold}-c, --bytes:${reset} \t print the byte counts"			
+echo -e "\t-${bold}-m, --chars:${reset} \t print the character counts"		
+echo -e "\t-${bold}-l, --lines:${reset} \t print the newline counts"			
+echo -e "\t-${bold}--files0-from=F:${reset} \t read input from the files specified by NUL-terminated names in file F; If F is "-" then read names from standard input"			
+echo -e "\t-${bold}-L, --max-line-length:${reset} \t print the length of the longest line"			
+echo -e "\t-${bold}-w, --words:${reset} \t print the word counts"			
+echo -e "\t-${bold}--help:${reset} \t display this help and exit"					
+echo -e "\t-${bold}--version:${reset} \t output version information and exit"	
 
 echo "------------"
 
