@@ -12,7 +12,7 @@ echo "This is the git ${bold}fetch${reset} command."
 echo -e 'git fetch'
 
 # the command's description
-echo "description here"
+echo "Fetch branches and/or tags (collectively, "refs") from one or more other repositories, along with the objects necessary to complete their histories. 
 
 echo "------------"
 
