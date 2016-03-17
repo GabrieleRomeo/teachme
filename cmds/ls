@@ -17,10 +17,15 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}ls [OPTION]...[file|dir]"
+echo -e "\t-${bold}-a: \t list all files including hidden file starting with '.'"
+echo -e "\t-${bold}-l: \t list with long format - show permissions"
+echo -e "\t-${bold}-s:\t list file size "
+echo -e "\t-${bold}-S:\t sort by file size "
+echo -e "\t-${bold}-t:\t sort by time & date "
+echo -e "\t-${bold}-r:\t list in reverse order "
+echo -e "\t-${bold}-ls:\t list with long format with file size "
+echo -e "\t-${bold}-la:\t list long format including hidden files "
 
 echo "------------"
 
