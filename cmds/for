@@ -26,12 +26,20 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "i=1"
+echo "for day in Mon Tue Wed Thu Fri"
+echo "do"
+echo "Weekday $((i++)) : $day"
+echo "done"
+echo "the list of values (Mon, Tue, Wed, Thu and Fri) are directly given after the keyword “in” in the bash for loop"
 
 # example 2
-echo "test something"
-echo description here
+echo "for (( i=1; i <= 5; i++ ))"
+echo "do"
+echo "Random number $i: $RANDOM"
+echo "done"
+
+echo "generates 5 random number using the bash C-style for loop"
 
 
 exit 0
