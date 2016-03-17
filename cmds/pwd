@@ -21,7 +21,7 @@ echo "Syntax:"
 echo "${bold}pwd [OPTION]...${reset}"
 echo -e "\t-${bold}-L, --logical:${reset} \t use PWD from environment, even if it contains symlinks"			
 echo -e "\t-${bold}-P, --physical:${reset} \t avoid all symlinks"			
-echo -e "\t-${bold--help:${reset} \t display this help and exit"					
+echo -e "\t-${bold}--help:${reset} \t display this help and exit"					
 echo -e "\t-${bold}--version:${reset} \t output version information and exit"	
 
 echo "------------"
