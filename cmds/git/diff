@@ -17,10 +17,14 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}diff [OPTION]...${reset}"
+echo -e "\t-${bold}-s, --no-patch:${reset} \t suppress diff output. Useful for commands like git show that show the patch by default, or to cancel the effect of --patch"			
+echo -e "\t-${bold}-U, --unified:${reset} \t generate diffs with <n> lines of context instead of the usual three"			
+echo -e "\t-${bold}-a, --text:${reset} \t treat all files as text"			
+echo -e "\t-${bold}-w, --ignore-all-space:${reset} \t Ignore whitespace when comparing lines. This ignores differences even if one line has whitespace where the other line has none"			
+echo -e "\t-${bold}-W, --function-context:${reset} \t show whole surrounding functions of changes"			
+echo -e "\t-${bold}--help:${reset} \t display this help and exit"					
+echo -e "\t-${bold}--version:${reset} \t output version information and exit"	
 
 echo "------------"
 
