@@ -36,8 +36,8 @@ echo "rmdir test1 test2"
 echo " remove two empty directories named dir1 and dir2 that are located in the current directory"
 
 # example 2
-echo "rmdir test1/test2/test3"
-echo "he following would remove test3, test2 and test1 if test2 were empty, test1 only contained test2 and test1 only contained test2 (which, in turn, contained test1)"
+echo "rmdir -p test1/test2/test3"
+echo "Use option -p, to delete nested directories "
 
 
 exit 0
