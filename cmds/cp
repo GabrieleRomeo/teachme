@@ -11,7 +11,7 @@ echo "This is the ${bold}cp${reset} command."
 echo -e 'cp'
 
 # the command's description
-echo "description here"
+echo "The cp command is used to make copies of files and directories"
 
 echo "------------"
 
