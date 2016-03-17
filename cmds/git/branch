@@ -17,10 +17,13 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}branch [OPTION]...${reset}"
+echo -e "\t-${bold}-d, --delete:${reset} \t delete a branch"			
+echo -e "\t-${bold}-m, --move:${reset} \t move/rename a branch and the corresponding reflog"		
+echo -e "\t-${bold}-a, --all:${reset} \t list both remote-tracking branches and local branches."			
+echo -e "\t-${bold}-r, --remote:${reset} \t list or delete the remote-tracking branches"			
+echo -e "\t-${bold--help:${reset} \t display this help and exit"					
+echo -e "\t-${bold}--version:${reset} \t output version information and exit"	
 
 echo "------------"
 
