@@ -17,12 +17,19 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]"
+
+echo -e "\t-${bold}-P:${reset} \t Never follow symbolic links.When find examines or prints information a file, and the file is a symbolic link, the information used shall be taken from the properties of the symbolic link itself"			
+echo -e "\t-${bold}-L:${reset} \t Follow symbolic links.  When find examines or prints information about files, the information used shall be takenfrom the properties of the file to which the link points, not from the link itself"	
+echo -e "\t-${bold}-H:${reset} \t  Do not follow symbolic links, except while processing thecommand line arguments."
+echo -e "\t-${bold}-D:${reset} \t Print diagnostic information; this can be helpful to diagnose problems with why find is not doing what you want."
+echo -e "\t-${bold}-Olevel:${reset} \t Enables query optimisation"
+echo -e "\t-${bold}--help:${reset} \t display this help and exit"					
+echo -e "\t-${bold}--version:${reset} \t output version information and exit"	
+
 
 echo "------------"
+
 
 # the command's usage examples
 # example 1
