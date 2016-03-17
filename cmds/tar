@@ -26,12 +26,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "tar -cvf test.tar /home/test/"
+echo  "creates a tar archive file test.tar for a directory /home/test in current working directory"
 
 # example 2
-echo "test something"
-echo description here
+echo "tar --extract --file=test.tar /home/test/test.php"
+echo "extracts a single file called test.php from the file test.tar"
 
 
 exit 0
