@@ -17,10 +17,14 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
-#   ...      etc
+echo "${bold}alias [OPTION]...${reset}"
+echo -e "\t-${bold}name:${reset} \t specifies the alias name"					
+echo -e "\t-${bold}command:${reset} \t specifies the command the name will be an alias for"					
+
+echo -e "\t-${bold}-a:${reset} \t removes all alias definitions from the environment of the current shell session."			
+echo -e "\t-${bold}-t:${reset} \t sets and lists tracked aliases"			
+echo -e "\t-${bold--help:${reset} \t display this help and exit"					
+echo -e "\t-${bold}-x:${reset} \t sets or prints exported aliases. An exported alias is defined for scripts invoked by name"	
 
 echo "------------"
 
